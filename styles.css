@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.game-container {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Impede o comportamento padrão de ampliar a imagem ao ser clicada no celular */
+img {
+  touch-action: manipulation;
+}
+
+#game-image {
+  max-width: 100%;
+  height: auto;
+}
